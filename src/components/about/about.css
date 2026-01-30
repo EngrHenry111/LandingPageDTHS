@@ -1,0 +1,71 @@
+/* ABOUT US */
+.about {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 0 0 20px 5px rgba(255, 123, 0, 0.6);
+}
+
+.about-container {
+  text-align: left;
+  
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+   margin-bottom: 12px;
+  line-height: 1.7;
+  color: #080808;
+}
+
+.about-points {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.about-points li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #080808;
+  font-weight: 500;
+}
+
+.about-card {
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.about-card h3 {
+  margin-bottom: 12px;
+}
+
+
+/* RESPONSIVE ABOUT */
+@media (max-width: 768px) {
+  .about{
+    max-width: 700px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+  }
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .about-points {
+    padding: 0;
+  }
+}
+
