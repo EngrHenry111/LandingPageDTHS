@@ -27,7 +27,7 @@ function App() {
     <p>
       Clean, fresh, and neatly finished clothes with fast pickup & delivery.
     </p><p>
-      <span style={{ fontSize: "22px", color: "#f58529"}} >Motto:</span> We offer you easem comfort and luxury.
+      <span style={{ fontSize: "22px", color: "#f58529"}} >Motto: </span> We offer you ease comfort and luxury.
     </p>
     <a href="#booking" className="btn-primary">
       Book Pickup
