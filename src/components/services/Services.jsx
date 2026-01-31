@@ -6,37 +6,41 @@ import { useRef } from "react";
 
 const services = [
   {
-    title: "Laundry & Folding",
-    desc: "Wash, dry, fold, and organize clothes.",
-  },
-  {
     title: "Post-Construction Cleaning",
-    desc: "Dust, debris & final touches.",
+    desc: "Complete cleanup after building or renovation.",
   },
   {
-    title: "Starching & Stain Removal",
-    desc: "Crisp finish & tough stain treatment.",
+    title: "Washing & Folding",
+    desc: "Neatly washed, dried, and folded garments.",
+  },
+  {
+    title: "Starching & Ironing",
+    desc: "Crisp, smooth finishing for all fabrics.",
    },
   
   {
+    title: "Stain Removal",
+    desc: "Effective treatment for tough stains.",
+  },
+  
+  {
     title: "Upholstery & Chair Cleaning",
-    desc: "Sofas, chairs & fabric care.",
+    desc: "Deep care for sofas, chairs, and fabrics.",
   },
   {
-    title: "Tiles Cleaning & Polishing",
-    desc: "Sparkling, streak-free surfaces.",
+    title: "Tile Cleaning & Polishing",
+    desc: "Restore shine and freshness to tiled surfaces.",
   },
   {
     title: "Deep Cleaning",
-    desc: "Thorough sanitization for any space.",
+    desc: "Intensive cleaning for homes and offices.",
   },
-  {
-    title: "Event Cleaning (Before & After)",
-    desc: "Hassle-free preparation & cleanup.",
-  },
-  {
+   {
+    title: "Before & After Event Cleaning",
+    desc: "Professional cleanup before and after events.",
+  }, {
     title: "Fumigation & Pest Control",
-    desc: "Safe, effective pest management.",
+    desc: "Safe and reliable pest elimination services.",
   },
 ];
 

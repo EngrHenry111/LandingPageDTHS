@@ -23,7 +23,7 @@ export default function Footer() {
        <div className="social-container">
       <button
         className="social-btn instagram"
-        onClick={() => openLink("https://www.instagram.com/dthouseservies")}
+        onClick={() => openLink("https://www.instagram.com/dthouseservices")}
       >
         <FaInstagram />
         <span>Instagram</span>

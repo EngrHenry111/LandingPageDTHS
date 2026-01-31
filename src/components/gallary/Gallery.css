@@ -10,7 +10,7 @@
 }
 
 .gallery-subtitle {
-  color: #c52508;
+  color: rgba(37, 99, 235, 0.85);
   margin-bottom: 40px;
   font-size: 1.5rem;
 }
@@ -102,7 +102,9 @@
 /* Mobile tweaks */
 @media (max-width: 768px) {
   .gallery-subtitle{
-    font-size: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .gallery-section h2{
     font-size: 1.7rem;

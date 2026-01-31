@@ -41,13 +41,14 @@ Address: ${data.address}
 
         <select name="service" required onChange={handleChange}>
           <option value="">Select Service</option>
-          <option>Laundry & Folding</option>
           <option>Post-Construction Cleaning</option>
-          <option>Starching & Stain Removal</option>
+          <option>Washing & Folding</option>
+          <option>Starching & Ironing</option>
+          <option>Stain Removal</option>
           <option>Upholstery & Chair Cleaning</option>
-          <option>Tiles Cleaning & Polishing</option>
+          <option>Tile Cleaning & Polishing</option>
           <option>Deep Cleaning</option>
-          <option>Event Cleaning (Before & After)</option>
+          <option>Before & After Event Cleaning</option>
           <option>Fumigation & Pest Control</option>
           
         </select>

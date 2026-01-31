@@ -51,6 +51,39 @@
 }
 
 
+/* PARAGRAPH CLAMP */
+.about-paragraphs {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6; /* 👈 change to 8 if you want */
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+/* EXPANDED STATE */
+.about-paragraphs.expanded {
+  -webkit-line-clamp: unset;
+  display: block;
+}
+
+/* READ MORE BUTTON */
+.read-more-btn {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
+
+
+
 /* RESPONSIVE ABOUT */
 @media (max-width: 768px) {
   .about{
