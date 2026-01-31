@@ -1,6 +1,6 @@
 import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa";
 import './footer.css'
-import ParticlesBackground from "../ParticlesBackground";
+import ParticlesBackground from "../ParticleBackground/ParticlesBackground";
 
 
 export default function Footer() {

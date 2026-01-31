@@ -4,10 +4,10 @@ import BookingForm from "./components/bookingForm/BookingForm";
 import Footer from "./components/footer/Footer";
 import "./App.css";
 import About from "./components/about/About";
-import Pricing from "./components/Pricing";
-import Testimonials from "./components/Testimonial";
+import Pricing from "./components/Pricing/Pricing";
+import Testimonials from "./components/Testimonial/Testimonial";
 import FloatingWhatsApp from "./components/floatingWhatsapp/FloatingWhatsApp";
-import ParticlesBackground from "./components/ParticlesBackground";
+import ParticlesBackground from "./components/ParticleBackground/ParticlesBackground";
 import Gallery from "./components/gallary/Gallery";
 
 
